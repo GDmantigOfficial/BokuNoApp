@@ -16,7 +16,7 @@ let Nombres = {
 };
 Personaje.addEventListener("change", () => {
     if (Personaje.value != ""){
-        image.src = `Resources/${Personaje.value}.PNG`;
+        image.src = `Resources/${Personaje.value}.png`;
         Nombre.innerText = Nombres[Personaje.value];
         if(Nombres[Personaje.value] == undefined){
             image.src = `Resources/Default.jpg`;
